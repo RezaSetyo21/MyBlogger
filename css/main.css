@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+  background-image: url("../img/bg.jpg");
+  background-size: 100vmax;
+}
+
+.container .row {
+  margin-top: 2rem;
+  font-style: oblique;
+  font-weight: 700;
+}
+.container .row .navbar .nav-item .nav-link {
+  margin-left: 1.5rem;
+}
+.container .row .navbar .nav-item .nav-link .nav-link:hover {
+  background-color: rgb(221, 0, 0);
+}
+
+.container .search {
+  color: white;
+  margin-top: 10rem;
+}
+.container .search h1 {
+  color: salmon;
+  text-shadow: 3px 3px 10px black;
+  text-align: center;
+  font-style: oblique;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+}
+
+.custom-content {
+  margin-top: 19rem;
+}
+.custom-content .custom-card-first {
+  margin: auto;
+}
+.custom-content .custom-card-first .card-body {
+  margin-top: 2rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  text-align: justify;
+}
+.custom-content .custom-card-first .card-body h3 {
+  margin-bottom: 1.2em;
+}
+.custom-content .custom-card-second {
+  margin-left: 1em;
+  margin-bottom: 1em;
+  -webkit-animation: alternate 3s;
+          animation: alternate 3s;
+}
+
+footer .row {
+  padding-top: 3em;
+}
+footer .row span {
+  margin-top: 0.5em;
+  margin-left: 5rem;
+}/*# sourceMappingURL=main.css.map */
